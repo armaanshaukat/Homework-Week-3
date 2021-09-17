@@ -8,15 +8,19 @@ public class Printer {
 		System.out.println("Printer is getting toner to temperature");
 	}
 	
-	public void printSleep() {
+	public void printerSleep() {
 		System.out.println("Printer is going to sleep mode");
 	}
 	
-	public void printLandscape() {
+	public void printerLandscape() {
 		System.out.println("Printing in landscape orientation");
 	}
 	
-	public void printPotrait() {
+	public void printerPotrait() {
 		System.out.println("Printing in portrait orientation");
+	}
+	
+	public void printerCancel() {
+		System.out.println("Cancelling printer job");
 	}
 }
