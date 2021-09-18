@@ -21,7 +21,6 @@ public class Scanner {
 	}
 	
 	public void scannerEmail() {
-		System.out.println("Scanner is getting ready to scan");
 		System.out.println("Sending scan as PDF to entered destination e-mail");
 	}
 	
