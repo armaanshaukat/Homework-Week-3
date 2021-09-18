@@ -12,9 +12,4 @@ public class printerLandscapeCommand implements Command {
 		printer.printerLandscape();
 		printer.printerSleep();
 	}
-	
-	public void cancel() {
-		printer.printerCancel();
-		printer.printerSleep();
-	}
 }

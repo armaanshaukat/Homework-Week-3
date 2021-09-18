@@ -1,5 +1,5 @@
 
-public class printerPotraitCommand {
+public class printerPotraitCommand implements Command {
 
 	Printer printer;
 	
@@ -10,11 +10,6 @@ public class printerPotraitCommand {
 	public void execute() {
 		printer.printOn();
 		printer.printerPotrait();
-		printer.printerSleep();
-	}
-	
-	public void cancel() {
-		printer.printerCancel();
 		printer.printerSleep();
 	}
 }
